@@ -1,0 +1,15 @@
+POST http://localhost:3001/api/notes HTTP/1.1
+content-type: application/json
+
+{  
+    "content":"just a note"
+}
+###
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{  
+    "id":5,
+    "content":"5th note",
+    "important":true
+}

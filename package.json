@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index_ex.js",
+
+  "scripts": {
+
+    "start": "node index_ex.js",
+    "dev": "nodemon index_ex.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alp1Arslan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
